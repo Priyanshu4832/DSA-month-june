@@ -51,11 +51,11 @@ public:
                 res.push_back(2*i);
                 sum-=2*i;
             }
-            else if((sum-2*i)==0){
-                res.push_back(2*i);
-                sum-=2*i;
-                break;
-            }
+            // else if((sum-2*i)==0){
+            //     res.push_back(2*i);
+            //     sum-=2*i;
+            //     break;
+            // }
             else if( (sum-2*i)<(2*i)+2 ){
                 res.push_back(sum);
                 break;
